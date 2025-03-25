@@ -18,8 +18,9 @@ int main() {
        case 2:
             printf("You selected BTech AIML.\n");
             break; 
-        default:
-            printf("Invalid choice. Please select a valid option (1-4).\n");
+          case 3:
+            printf("You selected BTech ECE.\n");
+            break;
     }
 
     return 0;
